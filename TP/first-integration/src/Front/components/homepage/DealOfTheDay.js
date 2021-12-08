@@ -1,9 +1,10 @@
 import "../../css/homepage/DealOfTheDay.css";
+import {Link} from "react-router-dom";
 
 const DealOfTheDay = () => {
 	return (
 		<div className={"deal-of-the-day"}>
-			<a href={"#"}>
+			<Link to={"/paris"}>
 				<div className={"img"}> </div>
 				<div className={"card-title"}>
 					<h6>Deal of the day</h6>
@@ -16,7 +17,7 @@ const DealOfTheDay = () => {
 				<div className={"card-price"}>
 					<p  className={"price"}>150€</p>
 				</div>
-			</a>
+			</Link>
 		</div>
 	);
 }

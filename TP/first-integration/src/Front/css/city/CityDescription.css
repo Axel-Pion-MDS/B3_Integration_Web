@@ -25,26 +25,6 @@
     margin-bottom: 20px;
 }
 
-.pipe-title {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 15px;
-}
-
-.description .pipe {
-    width: 5px;
-    height: 40px;
-    background: #ff5f2e;
-    margin-right: 10px;
-}
-
-.description .title {
-    font-weight: bold;
-    font-size: 20px;
-    color: #5b5753;
-    padding-top: 10px;
-}
-
 .detail {
     line-height: 1.7;
 }

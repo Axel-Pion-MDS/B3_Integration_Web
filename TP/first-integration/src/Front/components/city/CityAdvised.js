@@ -1,4 +1,5 @@
 import "../../css/city/CityAdvised.css";
+import {Link} from "react-router-dom";
 
 const CityAdvised = () => {
 	const advices = [
@@ -32,7 +33,7 @@ const CityAdvised = () => {
 		<div className={"city-advised"}>
 			<h3 className={"advice"}>You may also like</h3>
 			<div className={"destination-advised"}>
-				<a href={"#"}>
+				<Link to={"/paris"}>
 					{advices.map(advice =>
 						<div className={"card"} key={`card${advice.id}`} id={`card${advice.id}`}>
 							<img src={`${advice.image}`} alt={`${advice.city}-card`} name={`${advice.city}-image`} />
@@ -47,7 +48,7 @@ const CityAdvised = () => {
 							</div>
 						</div>
 					)}
-				</a>
+				</Link>
 			</div>
 		</div>
 	);

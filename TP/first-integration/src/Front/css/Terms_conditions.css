@@ -1,0 +1,12 @@
+.term-info {
+    margin: 20px 0 20px 20px;
+}
+
+.term-title {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.term-body {
+    line-height: 1.7;
+}

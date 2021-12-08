@@ -1,4 +1,5 @@
 import "../../css/homepage/TopDestinations.css";
+import {Link} from "react-router-dom";
 
 const TopDestinations = () => {
 	const cards = [
@@ -72,7 +73,7 @@ const TopDestinations = () => {
 		<div className={"top-destinations"}>
 			<h2>Top Destinations</h2>
 			<div className={"destination-cards"}>
-				<a href={"#"}>
+				<Link to={"/paris"}>
 					{cards.map(card =>
 						<div className={"card"} key={`card${card.id}`} id={`card${card.id}`}>
 							<img src={`${card.image}`} alt={`${card.city}-card`} name={`${card.city}-image`} />
@@ -87,7 +88,7 @@ const TopDestinations = () => {
 							</div>
 						</div>
 					)}
-				</a>
+				</Link>
 			</div>
 			<button className={"see-more"}>See more</button>
 		</div>

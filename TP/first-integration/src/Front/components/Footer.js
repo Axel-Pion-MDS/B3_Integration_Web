@@ -3,6 +3,7 @@ import icon1 from "../assets/img/calculator.png";
 import icon2 from "../assets/img/discount.png";
 import icon3 from "../assets/img/support.png";
 import icon4 from "../assets/img/online-payment.png";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
 	return (
@@ -39,11 +40,11 @@ const Footer = () => {
 				<div className={"links"}>
 					<h4>Links</h4>
 					<ul>
-						<li><a href={"../Homepage.js"}>Home</a></li>
-						<li><a href={"../Paris.js"}>Destinations</a></li>
+						<li><Link to={"/"}>Home</Link></li>
+						<li><Link to={"/paris"}>Destinations</Link></li>
 						<li><a href={"#"}>Deals</a></li>
-						<li><a href={"../Contact.js"}>Contact</a></li>
-						<li><a href={"../Terms_conditions.js"}>Terms & Conditions</a></li>
+						<li><Link to={"/contact"}>Contact</Link></li>
+						<li><Link to={"/terms"}>Terms & Conditions</Link></li>
 					</ul>
 				</div>
 				<div className={"address"}>
@@ -58,9 +59,7 @@ const Footer = () => {
 					<p>+1 0805-540-801</p>
 				</div>
 			</div>
-			<div className={"empty-div"}>
-
-			</div>
+			<div className={"empty-div"}> </div>
 		</div>
 	);
 }

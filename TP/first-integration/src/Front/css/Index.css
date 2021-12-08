@@ -63,6 +63,11 @@ a:active, a:visited {
     margin: auto;
 }
 
+input, textarea, select {
+    border: 1px solid #ff5f2e;
+    border-radius: 2px;
+}
+
 button {
     border-radius: 2px;
     border: none;
@@ -93,4 +98,24 @@ button {
     top: -279px;
     margin-bottom: -278px;
     background: linear-gradient(white -50%, transparent 50%, white 150%);
+}
+
+.pipe-title {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.pipe {
+    width: 5px;
+    height: 40px;
+    background: #ff5f2e;
+    margin-right: 10px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    color: #5b5753;
+    padding-top: 10px;
 }
