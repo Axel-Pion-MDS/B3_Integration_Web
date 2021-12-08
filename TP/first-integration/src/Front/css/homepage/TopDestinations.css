@@ -67,35 +67,3 @@
     margin: 30px 50% 30px 50%;
     transform: translate(-50%, 0%);
 }
-
-#card1 {
-    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=1");
-}
-
-#card2 {
-    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=2");
-}
-
-#card3 {
-    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=3");
-}
-
-#card4 {
-    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=4");
-}
-
-#card5 {
-    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=5");
-}
-
-#card6 {
-    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=6");
-}
-
-#card7 {
-    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=7");
-}
-
-#card8 {
-    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=8");
-}

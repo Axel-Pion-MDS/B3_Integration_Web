@@ -18,7 +18,7 @@ time, mark, audio, video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    font-family: Helvetica, arial, sans-serif;
+    font-family: Montserrat, Helvetica, arial, sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -69,4 +69,28 @@ button {
     background: #ff5f2e;
     color: white;
     font-size: 20px;
+}
+
+.card-price {
+    width: 99px;
+    height: 50px;
+    border-radius: 2px 0 0 2px;
+    background: #fcbe32;
+}
+
+.card-price .price {
+    color: #5b5753;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.card-gradient {
+    width: 275px;
+    height: 276px;
+    position: relative;
+    top: -279px;
+    margin-bottom: -278px;
+    background: linear-gradient(white -50%, transparent 50%, white 150%);
 }

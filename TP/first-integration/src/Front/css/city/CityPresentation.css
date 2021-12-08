@@ -1,0 +1,61 @@
+.city-presentation {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px 0 15px;
+}
+
+.city-presentation .city {
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 12px;
+    color: #5b5753;
+}
+
+.hotel-stars {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+.hotel-stars .hotel {
+    font-weight: bold;
+    font-size: 15px;
+    color: #5b5753;
+}
+
+.hotel-stars .stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.stars img {
+    width: 10px;
+    height: 10px;
+    margin: 2px 0 0 5px;
+}
+
+.city-presentation .duration {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 12px;
+    color: #5b5753;
+}
+
+.city-presentation .presentation {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.choose-date {
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.city-presentation .card-price {
+    position: relative;
+    top: -40px;
+    left: 90%;
+}

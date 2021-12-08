@@ -1,0 +1,31 @@
+.viewed-picture {
+    width: 600px;
+    height: 550px;
+}
+
+.pictures-list {
+    width: 100%;
+}
+
+.pictures-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+.pictures-list li {
+    margin: 0 5px 5px 5px;
+}
+
+#scope1 {
+    width: 100px;
+    height: 75px;
+    position: relative;
+    top: -79px;
+    background-image: url("../../assets/img/zoom.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    margin-bottom: -79px;
+}

@@ -1,0 +1,40 @@
+.city-advised {
+    width: 100%;
+    height: 320px;
+}
+
+.advice {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #5b5753;
+}
+
+.destination-advised a {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.destination-advised .card {
+    margin: 20px 10px 0 10px;
+}
+
+.destination-advised .card-gradient {
+    width: 370px;
+    height: 250px;
+    top: -252px;
+}
+
+.destination-advised .card-title {
+    top: -200px;
+}
+
+.destination-advised .card-body {
+    top: -70px;
+}
+
+.destination-advised .card-price {
+    top: -140px;
+    left: 271px;
+}
