@@ -1,0 +1,103 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-link {
+    height: 100px;
+    background: #004e66;
+}
+
+.icon-link ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon-link li {
+    width: 20%;
+}
+
+.icon-link a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.icon-link img {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.icon-link p {
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.links-address-call {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #e1eef6;
+}
+
+.links-address-call h4 {
+    font-weight: bold;
+}
+
+.links, .address, .call {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.links, .address {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.links {
+}
+
+.links h4, .call h4 {
+    margin: 5px 0 15px 0;
+}
+
+.links ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.links a {
+    margin: 10px 0;
+}
+
+.address {
+    margin-left: 45px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.call {
+    width: 40%;
+}
+
+.call p {
+    font-size: 40px;
+}
+
+.empty-div {
+    height: 20px;
+    background: #ff5f2e;
+}

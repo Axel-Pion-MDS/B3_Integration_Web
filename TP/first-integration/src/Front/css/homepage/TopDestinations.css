@@ -1,0 +1,101 @@
+.top-destinations {
+    width: 100%;
+}
+
+.top-destinations > h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px 0;
+    color: #5b5753;
+}
+
+.destination-cards a {
+    height: 565px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.destination-cards .card {
+    width: 275px;
+    height: 275px;
+    border-radius: 2px;
+}
+
+.img {
+    width: 275px;
+    height: 275px;
+    border-radius: 2px;
+}
+
+.card-title {
+    position: relative;
+    top: -235px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    color: #ff5f2e;
+}
+
+.card-body {
+    height: 50px;
+    position: relative;
+    top: -100px;
+    margin-left: 20px;
+    color: #5b5753;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card-body .duration {
+    font-style: italic;
+}
+
+.card-price {
+    position: relative;
+    top: -170px;
+    left: 64%;
+}
+
+.see-more {
+    width: 350px;
+    height: 40px;
+    margin: 30px 50% 30px 50%;
+    transform: translate(-50%, 0%);
+}
+
+#card1 {
+    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=1");
+}
+
+#card2 {
+    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=2");
+}
+
+#card3 {
+    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=3");
+}
+
+#card4 {
+    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=4");
+}
+
+#card5 {
+    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=5");
+}
+
+#card6 {
+    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=6");
+}
+
+#card7 {
+    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=7");
+}
+
+#card8 {
+    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/275/275?random=8");
+}

@@ -1,0 +1,20 @@
+.search-deal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-price {
+    width: 99px;
+    height: 50px;
+    border-radius: 2px 0 0 2px;
+    background: #fcbe32;
+}
+
+.card-price .price {
+    color: #5b5753;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 12px 0;
+    text-align: center;
+}

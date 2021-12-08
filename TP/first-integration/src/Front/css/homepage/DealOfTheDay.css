@@ -1,0 +1,47 @@
+.deal-of-the-day {
+    width: 40%;
+    height: 300px;
+}
+
+.deal-of-the-day .img {
+    background-image: linear-gradient(white -50%, transparent 50%, white 150%), url("https://picsum.photos/468/300");
+    width: 100%;
+    height: 100%;
+}
+
+.deal-of-the-day .card-title {
+    position: relative;
+    top: -270px;
+    left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #5b5753;
+}
+
+.deal-of-the-day .card-body {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    top: -100px;
+    margin: -30px 20px;
+
+    color: #5b5753;
+}
+
+.deal-of-the-day .card-body .city {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.deal-of-the-day .card-body .hotel,
+.deal-of-the-day .card-body .duration {
+    font-style: italic;
+}
+
+.deal-of-the-day .card-price {
+    position: relative;
+    top: -150px;
+    left: 79%;
+}
