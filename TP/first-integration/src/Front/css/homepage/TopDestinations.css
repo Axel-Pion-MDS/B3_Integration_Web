@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-.top-destinations > h2 {
+.top-destinations h2 {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
@@ -25,15 +25,25 @@
     border-radius: 2px;
 }
 
-.img {
+.destination-cards .card-gradient {
+    position: relative;
+    top: -275px;
+}
+
+.img-unresponsive {
+    display: block;
     width: 275px;
     height: 275px;
     border-radius: 2px;
 }
 
+.img-responsive {
+    display: none;
+}
+
 .card-title {
     position: relative;
-    top: -235px;
+    top: -255px;
     left: 20px;
     font-weight: bold;
     font-size: 25px;
@@ -66,4 +76,71 @@
     height: 40px;
     margin: 30px 50% 30px 50%;
     transform: translate(-50%, 0%);
+}
+
+@media all and (max-width: 990px) {
+    .top-destinations {
+        max-width: 990px;
+    }
+
+    .destination-cards {
+        margin-bottom: -25px;
+    }
+
+    .top-destinations h2 {
+        font-size: 50px;
+    }
+
+    .top-destinations a {
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .top-destinations .card {
+        width: 990px;
+        height: 500px;
+        margin-bottom: 30px;
+    }
+
+    .top-destinations .card-gradient {
+        top: -500px;
+    }
+
+    .img-unresponsive {
+        display: none;
+    }
+
+    .img-responsive {
+        display: block;
+        max-width: 990px;
+        max-height: 500px;
+    }
+
+    .top-destinations .card-title {
+        font-size: 50px;
+        left: 50px;
+        top: -280px
+    }
+
+    .top-destinations .card-body {
+        top: 0;
+        left: 25px;
+    }
+
+    .top-destinations .card-body .hotel,
+    .top-destinations .card-body .duration {
+        font-size: 30px
+    }
+
+    .top-destinations .card-price {
+        left: 840px;
+        top: -100px
+    }
+
+    .see-more {
+        width: 90%;
+        height: 70px;
+        font-size: 40px;
+    }
 }

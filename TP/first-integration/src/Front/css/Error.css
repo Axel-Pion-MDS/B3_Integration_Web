@@ -1,0 +1,9 @@
+.error .banner {
+    margin: 190px 0;
+    background-image: url("https://picsum.photos/1170/150?random=4");
+}
+
+.error h1 {
+    font-weight: bold;
+    font-size: 50px;
+}

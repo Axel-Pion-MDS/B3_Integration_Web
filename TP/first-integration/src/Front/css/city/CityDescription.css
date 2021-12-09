@@ -1,10 +1,10 @@
-.banner {
-    width: 1170px;
-    height: 150px;
-    background-image: url("https://picsum.photos/1170/150");
+.city-description .banner {
+    background-image: url("https://picsum.photos/1170/150?random=1");
 }
 
 .banner {
+    width: 1170px;
+    height: 150px;
     color: white;
     text-align: center;
     display: flex;

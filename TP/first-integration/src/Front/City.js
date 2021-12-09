@@ -5,7 +5,7 @@ import CityPresentation from "./components/city/CityPresentation";
 import CityDescriptions from "./components/city/CityDescriptions";
 import CityAdvised from "./components/city/CityAdvised";
 
-const Paris = () => {
+const City = () => {
 	return (
 		<div className={"city"}>
 			<div className={"city-header"}>
@@ -18,4 +18,4 @@ const Paris = () => {
 	);
 }
 
-export default Paris
+export default City;

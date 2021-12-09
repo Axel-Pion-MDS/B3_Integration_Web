@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.contact .banner {
+    background-image: url("https://picsum.photos/1170/150?random=2");
+}
+
 .first-lastname, .mail-agency {
     display: flex;
     flex-direction: row;

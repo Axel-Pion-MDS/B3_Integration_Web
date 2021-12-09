@@ -119,3 +119,33 @@ button {
     color: #5b5753;
     padding-top: 10px;
 }
+
+@media all and (max-width: 990px) {
+    .container {
+        min-width: 990px;
+    }
+
+    .card-price {
+        width: 150px;
+        height: 70px;
+        border-radius: 2px 0 0 2px;
+        background: #fcbe32;
+    }
+
+    .card-price .price {
+        color: #5b5753;
+        font-weight: bold;
+        font-size: 40px;
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .card-gradient {
+        width: 990px;
+        height: 500px;
+        position: relative;
+        top: -1090px;
+        margin-bottom: -700px;
+        background: linear-gradient(white -50%, transparent 50%, white 150%);
+    }
+}

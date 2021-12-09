@@ -3,3 +3,10 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+@media all and (max-width: 990px) {
+    .search-deal {
+        flex-direction: column;
+        justify-content: normal;
+    }
+}

@@ -39,4 +39,30 @@
     margin: auto 0;
 }
 
+nav > button {
+    display: none;
+}
+
+@media all and (max-width: 990px) {
+    .logo {
+        width: 60%;
+    }
+
+    .logo img {
+        width: 30px;
+        height: 30px;
+        margin-top: 5px;
+    }
+
+    .logo-title {
+        font-size: 30px;
+    }
+
+    .nav-links {
+        width: 50%;
+        position: relative;
+        left: -150px;
+    }
+}
+
 

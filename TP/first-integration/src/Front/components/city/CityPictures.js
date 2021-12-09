@@ -4,7 +4,7 @@ const CityPictures = () => {
 	const pictures = [
 		{
 			id: "1",
-			image: "https://picsum.photos/100/75?random=1",
+			image: "https://picsum.photos/seed/1/100/75",
 		},
 		{
 			id: "2",
@@ -46,7 +46,7 @@ const CityPictures = () => {
 
 	return (
 		<div className={"viewed-picture"}>
-			<img src={"https://picsum.photos/440/275"} alt={"viewed"} />
+			<img src={"https://picsum.photos/seed/1/440/275"} alt={"viewed"} />
 			<div className={"pictures-list"}>
 				<ul>
 					{pictures.map(picture =>

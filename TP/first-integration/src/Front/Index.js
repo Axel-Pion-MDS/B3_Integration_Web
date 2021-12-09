@@ -1,9 +1,10 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Homepage from "./Homepage";
-import Paris from "./Paris";
+import City from "./City";
 import Contact from "./Contact";
 import Terms from "./Terms_conditions";
+import Error from "./Error";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -16,9 +17,10 @@ const Index = () => {
 				<Navbar />
 				<Routes>
 					<Route path='/' element={ <Homepage /> } />
-					<Route path='/paris' element={ <Paris /> } />
+					<Route path='/paris' element={ <City /> } />
 					<Route path='/contact' element={ <Contact /> } />
 					<Route path='/Terms' element={ <Terms /> } />
+					<Route path={'*'} element={ <Error /> } />
 				</Routes>
 				<Footer />
 			</BrowserRouter>

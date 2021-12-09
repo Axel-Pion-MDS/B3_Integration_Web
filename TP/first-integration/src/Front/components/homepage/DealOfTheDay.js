@@ -5,7 +5,8 @@ const DealOfTheDay = () => {
 	return (
 		<div className={"deal-of-the-day"}>
 			<Link to={"/paris"}>
-				<div className={"img"}> </div>
+				<img className={"img"} src={"https://picsum.photos/468/300"} alt={"deal-card"} name={"deal-image"} />
+				<div className={"card-gradient"}> </div>
 				<div className={"card-title"}>
 					<h6>Deal of the day</h6>
 				</div>

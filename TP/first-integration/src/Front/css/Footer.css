@@ -48,6 +48,7 @@
 
 .links-address-call h4 {
     font-weight: bold;
+    color: #5b5753;
 }
 
 .links, .address, .call {
@@ -60,9 +61,6 @@
     display: flex;
     flex-direction: column;
     margin-left: 20px;
-}
-
-.links {
 }
 
 .links h4, .call h4 {
@@ -100,4 +98,78 @@
 .empty-div {
     height: 20px;
     background: #ff5f2e;
+}
+
+@media all and (max-width: 990px) {
+    footer {
+        max-width: 990px;
+    }
+
+    .icon-link {
+        height: 420px;
+        width: 990px;
+    }
+
+    .icon-link ul {
+        flex-wrap: wrap;
+    }
+
+    .icon-link li {
+        width: 40%;
+    }
+
+    .icon-link img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .icon-link p {
+        font-size: 20px;
+    }
+
+    .links-address-call {
+        height: 850px;
+        width: 990px;
+        flex-direction: column;
+        text-align: center;
+        justify-content: normal;
+    }
+
+    .links-address-call h4 {
+        font-size: 30px;
+    }
+
+    .links-address-call p, .links-address-call a {
+        font-size: 25px;
+    }
+
+    .links, .address, .call {
+        position: relative;
+        width: 990px;
+    }
+
+    .links {
+        height: 250px;
+        left: -20px;
+        margin-top: 30px;
+    }
+
+    .links ul {
+        justify-content: space-around;
+    }
+
+    .address {
+        height: 250px;
+        left: -45px;
+        margin-top: 50px;
+    }
+
+    .call p {
+        margin-top: 50px;
+        font-size: 60px;
+    }
+
+    .empty-div {
+        width: 990px;
+    }
 }

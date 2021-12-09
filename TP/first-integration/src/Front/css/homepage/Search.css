@@ -57,3 +57,44 @@
     width: 140px;
     height: 40px;
 }
+
+@media all and (max-width: 990px) {
+    .search {
+        min-width: 990px;
+        height: 500px;
+    }
+
+    .search h3 {
+        font-size: 30px;
+    }
+
+    .from-to, .date-duration {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .from, .to, .date, .duration {
+        margin: 10px 0;
+    }
+
+    .duration {
+        margin-bottom: 20px;
+    }
+
+    .holiday-search label {
+        margin: 0 0 5px 0;
+    }
+
+    .holiday-search input {
+        width: 97.5%;
+    }
+
+    .holiday-search select {
+        width: 100%;
+    }
+
+    .find {
+        width: 96%;
+        left: 20px;
+    }
+}
