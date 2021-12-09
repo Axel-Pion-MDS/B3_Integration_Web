@@ -3,7 +3,30 @@
     font-size: 50px;
 }
 
+.contact .banner {
+    background-image: url("https://picsum.photos/1170/150?random=2");
+}
+
 .form-informations {
     display: flex;
     flex-direction: row;
+}
+
+@media all and (max-width: 990px) {
+    .contact {
+        width: 990px;
+    }
+
+    .contact .banner {
+        width: 990px;
+        background-image: url("https://picsum.photos/990/300?random=2");
+    }
+
+    .contact-title {
+        font-size: 120px;
+    }
+
+    .form-informations {
+        flex-direction: column;
+    }
 }

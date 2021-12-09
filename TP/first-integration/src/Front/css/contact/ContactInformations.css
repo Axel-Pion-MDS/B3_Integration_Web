@@ -9,3 +9,13 @@
 .contact-body {
     line-height: 1.7;
 }
+
+@media all and (max-width: 990px) {
+    .contact-informations {
+        margin: 30px 40px 40px 40px;
+    }
+
+    .contact-body {
+        font-size: 30px;
+    }
+}

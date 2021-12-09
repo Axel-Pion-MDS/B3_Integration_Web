@@ -14,3 +14,27 @@
 .term-body {
     line-height: 1.7;
 }
+
+@media all and (max-width: 990px) {
+    .terms {
+        width: 990px;
+    }
+
+    .terms .banner {
+        background-image: url("https://picsum.photos/990/300?random=3");
+        margin-bottom: 70px;
+    }
+
+    .term-info {
+        width: 95%;
+        margin-bottom: 50px;
+    }
+
+    .term-title {
+        font-size: 120px;
+    }
+
+    .term-body {
+        font-size: 30px;
+    }
+}
