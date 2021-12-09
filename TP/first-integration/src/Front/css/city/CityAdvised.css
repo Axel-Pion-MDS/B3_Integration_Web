@@ -20,6 +20,10 @@
     margin: 20px 10px 0 10px;
 }
 
+.destination-advised .image-responsive {
+    display: none;
+}
+
 .destination-advised .card-gradient {
     width: 370px;
     height: 250px;
@@ -37,4 +41,57 @@
 .destination-advised .card-price {
     top: -140px;
     left: 271px;
+}
+
+@media all and (max-width: 990px) {
+    .city-advised {
+        width: 990px;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+
+    .advice {
+        font-size: 80px;
+    }
+
+    .destination-advised a {
+        flex-direction: column;
+    }
+
+    .destination-advised .card {
+        width: 990px;
+        height: 500px;
+        margin: 0 0 40px 0;
+    }
+
+    .destination-advised .image-unresponsive {
+        display: none;
+    }
+
+    .destination-advised .image-responsive {
+        display: block;
+        width: 990px;
+        height: 500px;
+    }
+
+    .destination-advised .card-gradient {
+        width: 990px;
+        height: 500px;
+        top: -500px;
+    }
+
+    .destination-advised .card-title {
+        font-size: 70px;
+        top: -280px;
+    }
+
+    .destination-advised .card-body {
+        font-size: 30px;
+        top: 40px;
+    }
+
+    .destination-advised .card-price {
+        top: -60px;
+        left: 840px;
+    }
 }

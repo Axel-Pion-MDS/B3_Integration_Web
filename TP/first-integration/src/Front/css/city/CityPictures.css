@@ -3,6 +3,10 @@
     height: 550px;
 }
 
+.viewed-picture .image-responsive {
+    display: none;
+}
+
 .pictures-list {
     width: 100%;
 }
@@ -18,6 +22,10 @@
     margin: 0 5px 5px 5px;
 }
 
+.pictures-list .image-responsive {
+    display: none;
+}
+
 #scope1 {
     width: 100px;
     height: 75px;
@@ -28,4 +36,44 @@
     background-position-y: center;
     background-position-x: center;
     margin-bottom: -79px;
+}
+
+@media all and (max-width: 990px) {
+    .viewed-picture {
+        width: 990px;
+        height: 500px;
+        margin-bottom: 450px;
+    }
+
+    .viewed-picture .image-unresponsive {
+        display: none;
+    }
+
+    .viewed-picture .image-responsive {
+        display: block;
+    }
+
+    .pictures-list {
+        margin: 10px 0 0 5px;
+    }
+
+    .pictures-list .image-unresponsive {
+        display: none;
+    }
+
+    .pictures-list .image-responsive {
+        width: 225px;
+        height: 130px;
+        display: block;
+        margin: 5px;
+    }
+
+    #scope1 {
+        width: 225px;
+        height: 130px;
+        top: -135px;
+        left: 5px;
+        margin-bottom: -135px;
+        background-size: 50px 50px;
+    }
 }

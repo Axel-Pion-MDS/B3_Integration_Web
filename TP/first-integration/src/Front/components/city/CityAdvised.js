@@ -6,6 +6,7 @@ const CityAdvised = () => {
 		{
 			id: "1",
 			image: "https://picsum.photos/370/250?random=1",
+			image_responsive: "https://picsum.photos/990/500?random=1",
 			city: "Katmandou",
 			hotel: "Hotel Calypso",
 			duration: "1 week",
@@ -14,6 +15,7 @@ const CityAdvised = () => {
 		{
 			id: "2",
 			image: "https://picsum.photos/370/250?random=2",
+			image_responsive: "https://picsum.photos/990/500?random=2",
 			city: "Tokyo",
 			hotel: "Hotel Calypso",
 			duration: "1 week",
@@ -22,6 +24,7 @@ const CityAdvised = () => {
 		{
 			id: "3",
 			image: "https://picsum.photos/370/250?random=3",
+			image_responsive: "https://picsum.photos/990/500?random=3",
 			city: "Lisbonne",
 			hotel: "Hotel Calypso",
 			duration: "1 week",
@@ -36,7 +39,8 @@ const CityAdvised = () => {
 				<Link to={"/paris"}>
 					{advices.map(advice =>
 						<div className={"card"} key={`card${advice.id}`} id={`card${advice.id}`}>
-							<img src={`${advice.image}`} alt={`${advice.city}-card`} name={`${advice.city}-image`} />
+							<img className={"image-unresponsive"} src={`${advice.image}`} alt={`${advice.city}-card`} name={`${advice.city}-image`} />
+							<img className={"image-responsive"} src={`${advice.image_responsive}`} alt={`${advice.city}-card`} name={`${advice.city}-image`} />
 							<div className={"card-gradient"}> </div>
 							<h2 className={"card-title"}>{advice.city}</h2>
 							<div className={"card-body"}>

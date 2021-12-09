@@ -59,3 +59,38 @@
     top: -40px;
     left: 90%;
 }
+
+@media all and (max-width: 990px) {
+    .city-presentation {
+        width: 990px;
+        margin-bottom: -20px;
+    }
+
+    .city-presentation .city {
+        font-size: 70px;
+    }
+
+    .hotel-stars .hotel {
+        font-size: 25px;
+    }
+
+    .city-presentation .duration {
+        font-size: 20px;
+    }
+
+    .city-presentation .presentation {
+        font-size: 22px;
+    }
+
+    .choose-date {
+        width: 97%;
+        height: 50px;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .city-presentation .card-price {
+        top: -320px;
+        left: 800px
+    }
+}

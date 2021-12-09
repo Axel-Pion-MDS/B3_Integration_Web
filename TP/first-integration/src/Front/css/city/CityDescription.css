@@ -28,3 +28,41 @@
 .detail {
     line-height: 1.7;
 }
+
+@media all and (max-width: 990px) {
+    .city-description .banner {
+        background-image: url("https://picsum.photos/990/300?random=1");
+    }
+
+    .banner {
+        width: 990px;
+        height: 300px;
+    }
+
+    .city-description .city {
+        font-size: 120px;
+    }
+
+    .city-description .motivation {
+        font-size: 30px;
+    }
+
+    .description {
+        width: 990px;
+        height: 100%;
+    }
+
+    .pipe-title .pipe {
+        height: 80px;
+        width: 10px;
+    }
+
+    .pipe-title .title {
+        font-size: 55px;
+        margin-left: 15px;
+    }
+
+    .description .detail {
+        font-size: 20px;
+    }
+}
