@@ -1,8 +1,8 @@
 version: '3.8'
 
 services:
-  first-integration:
-    container_name: first-integration
+  app:
+    container_name: Maengdok_integration
     build:
       context: .
       dockerfile: Dockerfile
