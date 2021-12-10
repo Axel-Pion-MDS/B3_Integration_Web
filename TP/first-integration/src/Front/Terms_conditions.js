@@ -53,7 +53,7 @@ const Terms_conditions = () => {
 	]
 
 	return (
-		<div className={"terms"}>
+		<div className={"terms"} id={"top"}>
 			<div className={"banner"}>
 				<h1 className={"term-title"}>Terms & Conditions</h1>
 			</div>

@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  first-integration:
+    container_name: first-integration
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/first-integration
+      - /first-integration/node_modules
+    ports:
+      - "3001:3000"
+    environment:
+      - CHOCKIDAR_USEPOLLING=true
